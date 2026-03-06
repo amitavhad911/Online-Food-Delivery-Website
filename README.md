@@ -1,69 +1,108 @@
 🍕 Food Delivery Website
-Spring Boot React MongoDB Razorpay AWS JWT Bootstrap
+
+Spring Boot | React | MongoDB | Razorpay | AWS S3 | JWT | Bootstrap
 
 📖 About the Project
-🍽 Food Delivery Website is a Full-Stack Web Application built using Spring Boot (Backend) and React (Frontend).
-It allows users to browse food items, add them to the cart, and place orders with secure online payments via Razorpay.
-It also includes an Admin Panel to manage food items, users, and orders efficiently.
 
-Built with:
-✅ Spring Boot for backend
-✅ React.js for frontend & admin panel
-✅ MongoDB for database
-✅ Razorpay for secure payments
+🍽 Food Delivery Website is a Full-Stack Web Application built using Spring Boot (Backend) and React (Frontend).
+
+The platform allows users to browse food items, add them to cart, and place orders with secure online payments via Razorpay. It also includes a powerful Admin Panel to efficiently manage food items, users, and orders.
+
+Built With
+
+✅ Spring Boot – Backend development
+
+✅ React.js – Frontend & Admin Panel
+
+✅ MongoDB – Database
+
+✅ Razorpay – Secure payment integration
 
 ✨ Features
-👨‍🍳 For Customers
-✔ 🔐 User Authentication (Sign Up & Login)
-✔ 🍔 Browse Food Menu by categories
-✔ 🛒 Add to Cart & Manage Items
-✔ 💳 Online Payment Integration using Razorpay
-✔ 📱 Responsive Design with Bootstrap
-✔ 🔔 Real-time Notifications using React Toastify
+👨‍🍳 Customer Features
 
-🛠 For Admin
-✔ ➕ Add, Update, Delete Food Items
-✔ 👥 Manage Users & Orders
-✔ ✅ Order Status Management (Pending, Completed)
-✔ 📊 Responsive Admin Dashboard
+🔐 User Authentication (Sign Up & Login)
+
+🍔 Browse Food Menu by categories
+
+🛒 Add to Cart & manage items
+
+💳 Online Payment Integration using Razorpay
+
+📱 Responsive Design with Bootstrap
+
+🔔 Real-time Notifications using React Toastify
+
+🛠 Admin Features
+
+➕ Add / Update / Delete Food Items
+
+👥 Manage Users & Orders
+
+✅ Order Status Management (Pending / Completed)
+
+📊 Admin Dashboard
 
 🔗 Backend Features
-✔ 🛠 RESTful APIs with Spring Boot
-✔ 🔒 JWT Authentication & Authorization
-✔ 📦 MongoDB Database
-✔ ☁ AWS S3 Integration for image storage
-✔ 💰 Razorpay Payment Gateway
+
+🛠 RESTful APIs using Spring Boot
+
+🔒 JWT Authentication & Authorization
+
+📦 MongoDB Database
+
+☁ AWS S3 Integration for image storage
+
+💳 Razorpay Payment Gateway Integration
 
 🛠 Tech Stack
 🎨 Frontend
+
 ⚛ React.js
+
 🔗 React Router DOM
+
 🔔 React Toastify
+
 🎨 Bootstrap & Icons
+
 🌐 Axios
+
 ⚙ Backend
+
 ☕ Spring Boot
+
 🔐 Spring Security
+
 🗄 MongoDB
+
 🔑 JWT Authentication
+
 💳 Razorpay Java SDK
+
 ☁ AWS S3
+
 ✅ Lombok
+
 📊 Admin Panel
+
 ⚛ React.js
+
 🎨 Bootstrap
+
 🌐 Axios
+
 💳 Payment Integration
+
 🔗 Razorpay API is integrated for secure and seamless online payments.
-✅ How it works:
 
-🖥 Backend generates an Order ID using Razorpay Java SDK.
-🌐 Frontend initializes Razorpay Checkout for secure payment processing.
-✅ Once payment is successful, the order status is updated in the database.
+How it Works
+
+1️⃣ Backend generates an Order ID using Razorpay Java SDK.
+2️⃣ Frontend initializes Razorpay Checkout for secure payment processing.
+3️⃣ After successful payment, the order status is updated in the database.
+
 ✔ This ensures a safe and smooth payment experience for users.
-
-📸 Screenshots
-👤 User Authentication (Register & Signup)
 <img width="1903" height="800" alt="image" src="https://github.com/user-attachments/assets/5eb59109-794c-42e3-bc42-4298485fb603" />
 <img width="1899" height="923" alt="image" src="https://github.com/user-attachments/assets/4cfc6215-fe58-4a37-9e64-6e433faa3c6c" />
 
